@@ -1,0 +1,337 @@
+/* 
+    #ff7a18 - vivid red
+    #5e5e5e - background color
+*/
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #262626;
+}
+
+/* Header*/
+
+.top-bar{
+    background-color: black;
+    border: 0;
+    font-size: small;
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: flex;
+    justify-items: flex-start;
+    gap: 100px;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 45px;
+}
+
+.logo {
+
+    display: flex;
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.tab{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 9px 20px 9px;
+}
+
+#tabs {
+    
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    list-style-type: none;
+    flex-wrap: nowrap;
+}
+
+.tab:hover {
+    background-color: #4e4646;
+    color: #ff7a18;
+    padding: 20px 9px 20px 9px;
+    border-radius: 2px;
+}
+
+
+/* Banner */
+
+.top-banner {
+    background-color: white;
+    margin:60px 240px 30px 240px ;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 280px;
+    border-radius: 15px;
+}
+
+#banner-logo{
+    padding-top: 15px;
+    width: 350px;
+    height: 50px;
+}
+
+h1{
+    color: white;
+    margin:0 240px 30px 240px ;
+    font-size: 400%;
+
+}
+
+/* CARDS */
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin:0 240px 80px 240px ;
+    flex-wrap: wrap;
+    
+}
+
+/* .card-box1 {
+    display: flex;
+    width: 27%;
+    height: 700px;
+   
+} */
+
+.card-box {
+    display: flex;
+    width: 27%;
+    height: 700px;
+    margin-bottom: 100px;
+}
+
+.card-img{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://css-tricks.com/wp-content/uploads/2018/12/guide-flexbox.png");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.card-img2{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://css-tricks.com/wp-content/uploads/2019/09/custom-properties-code.png");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.card-img3{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://css-tricks.com/wp-content/uploads/2013/09/table-guide.png");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+} 
+ 
+.card-img4{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://css-tricks.com/wp-content/uploads/2020/05/calc-functions.png");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+} 
+
+.card-img5{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://css-tricks.com/wp-content/uploads/2015/05/svg-fallback-guide.png");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+} 
+
+.card-img6{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://css-tricks.com/wp-content/uploads/2020/06/guide-mediaq.png");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.card-img7{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://css-tricks.com/wp-content/uploads/2020/06/dark-mode-guide.png");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.card-img8{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://css-tricks.com/wp-content/uploads/2020/11/css-gradient.png");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.card-img9{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://css-tricks.com/wp-content/uploads/2020/11/css-gradient.png");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.card-img:hover,
+.card-img2:hover,
+.card-img3:hover,
+.card-img4:hover,
+.card-img5:hover,
+.card-img6:hover,
+.card-img7:hover,
+.card-img8:hover,
+.card-img9:hover {
+    opacity: 0.5;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    height: 100%;
+    
+}
+
+.card-content {
+    padding: 0 30px 30px 30px;
+}
+
+h2{
+    font-size: 200%;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.01em;
+    line-height:24px;
+}
+.p-date{
+    margin-top: 6px;
+    margin-bottom: 50px;
+    
+}
+
+.box-button{
+    border: none;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #6b6a6a;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 4px ;
+}
+
+.box-button:hover {
+    background-color: #7c7c7c;
+}
+
+
+/* FOOTER */
+
+.footer{
+    color: white;
+    background-color:#111111;
+   
+}
+.footer-content{
+    padding: 100px 0 70px 0;
+    margin:0 240px 0 240px ;
+}
+
+li{
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ul{
+    padding: 0;
+    font-size: larger;
+    line-height: 35px;
+    color: #979797;
+}
+
+li:hover{
+    color: white;
+    cursor:pointer;
+}
+
+.footer-details{
+    display: flex;
+    gap: 100px;
+    
+}
+
+#css-footer{
+    font-size: xx-large;
+}
+
+.bold{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: #ff7a18;
+}
+
+.bold:hover{
+    color:#ff7a18 ;
+    cursor:default;
+}
+
+/* EMAIL SUB */
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #434343;
+    color: #ff7a18;
+    border: none;
+    width: 600px;
+    margin-left: 56%;
+    padding: 0 20px 20px 20px;
+    border-radius: 6px;
+
+    position: relative;
+    top: 100px;
+    
+}
+
+#tex{
+    padding: 15px 0 15px 0;
+    border-radius: 6px;
+    width: 400px;
+}
+
+#tex-btn{
+    color: white;
+    background-color: #5e5e5e;
+    padding: 15px 30px 15px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#sub-p{
+    color: white;
+}
